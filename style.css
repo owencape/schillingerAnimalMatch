@@ -1,0 +1,51 @@
+html {
+    background-color: gray;
+}
+
+
+/* NAV BAR */
+
+ul li {
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    background-color: white;
+    float: left;
+    max-width: 10%;
+    min-height: 100%;
+    height: max-content;
+}
+
+nav {
+    height: max-content;
+    background-color: red;
+    color: tomato;
+}
+
+/* NAV BAR */
+
+
+
+
+
+
+/* Put Code Above This */
+
+.MadeBy {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
