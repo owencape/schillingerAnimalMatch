@@ -5,6 +5,40 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background: #2771b6;
 }
+
+
+.corgi img{
+	margin-left: 10%;
+	width: 550px;
+	height: 450px;
+
+}
+.part1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10%;
+}
+
+h2 {
+	width: 500px;
+
+	
+}
+
+
+h3 {
+	margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+/* Nav Bar */
 nav ul {
 	margin: 0;
 	padding: 0;
@@ -18,6 +52,8 @@ nav ul {
 nav ul li {
 	list-style: none;
 }
+
+
 nav ul li a {
 	display: block;
 	font-family: 'Montserrat', sans-serif;
@@ -26,7 +62,7 @@ nav ul li a {
 	font-size: 20px;
 	color: #fff;
 	position: relative;
-	padding: 25px 0 25px 38px;
+	padding: 20px 0 25px 38px;
 }
 nav ul li a:before {
 	content: '';
@@ -46,6 +82,11 @@ nav ul li a:hover {
 nav ul li a:hover:before {
 	width: 95%;
 }
+
+/* Nav Bar End */
+
+
+
 .wrapper {
 	margin-left: 260px;
 }
@@ -66,19 +107,28 @@ nav ul li a:hover:before {
 	width: 75%;
 }
 .logo {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
+	width: 278px;
+	height: 117px;
+	border-radius: 25%;
 	overflow: hidden;
-	margin: 25px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding: 25px,20px,10px,15px;
+	
 }
 .logo img {
 	width: 100%;
 }
 
 
-/* NAV BAR */
+.iconNav {
+	display: inline-block;
+	padding-right: 10px;
+	
+}
 
+/* NAV BAR */
+/* 
 ul li {
     font-size: large;
     font-weight: bold;
@@ -104,7 +154,7 @@ nav {
     height: max-content;
     background-color: red;
     color: tomato;
-}
+} */
 
 /* NAV BAR */
 
