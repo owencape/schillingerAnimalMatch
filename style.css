@@ -90,12 +90,6 @@ nav ul li a:hover:before {
 	width: 95%;
 }
 
-/* Nav Bar End */
-.home a{
-	
-}
-
-
 .wrapper {
 	margin-left: 260px;
 }
@@ -137,49 +131,46 @@ nav ul li a:hover:before {
 	
 }
 
-/* NAV BAR */
-/* 
-ul li {
-    font-size: large;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    list-style-type: none;
+/* Footer */
+
+footer{
+	display: flex;
+	color: #262626;
+	/* opacity: 50%; */
+	background-position: 5em;
+	background-color: #4fa3e8;
+	bottom: 0;
+
 }
 
-li a {
-    text-decoration: none;
-    color: black;
+footer * {
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+  }
+
+.leftSide {
+	padding-right: 60em;
 }
 
-ul {
-    background-color: white;
-    float: left;
-    max-width: 10%;
-    min-height: 100%;
-    height: max-content;
+.rightSide {
+	padding-left: 60em;
 }
 
-nav {
-    height: max-content;
-    background-color: red;
-    color: tomato;
-} */
+.text-center {
+	text-align: center;
+  }
 
-/* NAV BAR */
+.text-center h2 {
+	font-size: 30px;
+	padding-top: 2em;
+	place-content: center;
+}
 
+.text-right {
+	text-align: right;
+}
 
-
-
-
-
-/* Put Code Above This */
-
-.MadeBy {
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-    margin-top: 10px;
+.text-left {
+	text-align: left;
 }
